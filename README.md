@@ -1,6 +1,6 @@
 # Waste_Management
 
 Communication Protocols: 
-Slack
-Zoom
+- Slack
+- Zoom
 
