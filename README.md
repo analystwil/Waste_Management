@@ -42,12 +42,16 @@ Space at the dump to breakdown trash?
 ## Models that can be used
 RBM – unsupervised learning, monitor a system, building a binary recommendation system, or working with a specific set of data
 - Monitor population to gauge frequency of trash pickup
+- Will help predict trash by population
 
 Arima – time series model, categorizes moving averages and auto-regression
 - Predict how much garbage is going to be generated, could be accurate for the next 4-5 years
 - Moving average – if it hits a certain point, this would be the impact of trash 
 
 Linear Regression
+
+Classification model 
+- Will assist in making a recommendation.
 
 # Communication Protocols
 - Weekly meeting – Wednesday’s 8:30-9:30p
