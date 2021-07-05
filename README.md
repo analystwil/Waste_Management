@@ -1,8 +1,5 @@
 ## Waste_Management
 
-![image](https://user-images.githubusercontent.com/77358388/124204003-06e78b80-daac-11eb-8fb1-9747079f6ba9.png)
-
-
 Team Members:
 - Mangala, Francis
 - Weber, Yuval
