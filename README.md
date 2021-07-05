@@ -60,6 +60,6 @@ Classification model
 - Zoom
 
 ## The WHY
-Enviromental impact
-Budgeting impact
+- Enviromental impact
+- Budgeting impact
 
