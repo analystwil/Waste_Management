@@ -1,0 +1,24 @@
+Outline of the Project should be first in the Read.Me file
+Outline should include items below:
+•	Business Problem and Questions
+•	Data Sources
+•	Model
+•	Database & Dashboard we selected
+•		
+Go into detail about the items below:
+•	Database we are using, how we will access the data
+•	How many observations? (Rows in the file – 54,000 data points)
+o	Mention we didn’t have to do any cleaning of the data, it was intact already
+o	5 features (columns – ex. Weight, data and etc.)
+•	Add legend to presentation
+o	Go into detail about what the data in the columns mean
+o	
+Next Steps should be at the bottom of Read.Me or Word document
+We don’t need to speak on data processing unless we had to clean up the data
+:white_check_mark:
+1
+:raised_hands::skin-tone-3:
+1
+
+8:56
+I also added it to the bottom of the document
