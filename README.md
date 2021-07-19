@@ -106,7 +106,14 @@ Classification
 - Moving average – if it hits a certain point, this would be the impact of trash Linear Regression
 
 ## Dashboard
-Tableau
+
+![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
+
+Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
+
+![image](https://user-images.githubusercontent.com/77358388/126094585-576ac0bf-de1a-4d54-8a20-ef691e327d12.png)
+
+The number 9 displayed in the screenshot shows the container reached the limit of GREEN/YELLOW/RED. 
 
 ## Legend
 
