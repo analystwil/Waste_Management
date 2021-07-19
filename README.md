@@ -106,6 +106,7 @@ Classification
 - Moving average – if it hits a certain point, this would be the impact of trash Linear Regression
 
 ## Dashboard
+- [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
 
 ![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
 
