@@ -82,11 +82,19 @@ Database below is the final database after we merged both CSV files (Waste and W
 
 ![image](https://user-images.githubusercontent.com/77358388/125873810-79f12133-d5c2-4e47-8de4-eb966f17d1f4.png)
 
+We will only be working with data from the month of January. I filtered the table in Postgres to retrieve this data.
+
+![image](https://user-images.githubusercontent.com/77358388/126092420-92c19bc4-33aa-45e8-8bf4-99b1aba44554.png)
+
+
 
 ## PYTHON - MATPLOTLIB 
 
-We are planning to write our code in Python using Matplotlib library that will provide heatmaps.
+Below is the waste_data_df created containing the Jan data.
 
+![image](https://user-images.githubusercontent.com/77358388/126092455-502a1314-2e11-47c8-9c65-ada50a9187a5.png)
+
+We will create heatmaps or a line graph to analyze the data further.
 
 ## Model
 We are still narrowing down the Machine Learning model that will be used for this analysis, below are some models that we are deciding from.
