@@ -22,6 +22,10 @@ Team Members:
 ## Business Problem and Questions
 
 - Making a case to the City of Philadelphia to keep trying the Big Belly trash cans and leveraging the data the waste baskets are collecting
+- Does Big Belly currently have a schedule for container pickup?
+- Once the container is full how long does it take Big Belly to empty container?
+- What factors contribute to where the containers are placed?
+- Business Problem - Containers are overflowing in which will cause an uptake in rodents and an eye soar in the community.
 
 ## Validate the problem
 
