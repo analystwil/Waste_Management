@@ -117,6 +117,16 @@ Shows all of the Jan Waste data. The darker squares indicate more waste in the p
 
 The number 9 displayed in the screenshot shows the container reached the limit of GREEN/YELLOW/RED. 
 
+![image](https://user-images.githubusercontent.com/79024998/126253347-aaf12470-26bf-4c46-9988-44c0210b5a5d.PNG)
+
+Map of Big Belly trash bins through out Philadelphia
+
+![image](https://user-images.githubusercontent.com/79024998/126253415-e3860cf7-185d-447e-8dec-3539dc9e68ba.PNG)
+
+Bar Graph showing January trash levels
+
+
+
 ## Legend
 
 GREEN/YELLOW/RED system
