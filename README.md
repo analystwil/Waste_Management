@@ -107,6 +107,7 @@ Classification
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
+- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/PhiladelphiaTrash/JanuaryLevels?publish=yes)
 
 ![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
 
