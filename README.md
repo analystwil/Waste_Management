@@ -100,7 +100,6 @@ We will create heatmaps or a line graph to analyze the data further.
 We are still narrowing down the Machine Learning model that will be used for this analysis, below are some models that we are deciding from.
 
 Classification
-- Will assist in making a recommendation. RBM – unsupervised learning, monitor a system, building a binary recommendation system, or working with a specific set of data
 - Monitor population to gauge frequency of trash pickup Arima – time series model, categorizes moving averages and auto-regression
 - Predict how much garbage is going to be generated, could be accurate for the next 4-5 years
 - Moving average – if it hits a certain point, this would be the impact of trash Linear Regression
