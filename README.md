@@ -19,6 +19,8 @@ ARIMA is nice to use because it breaks down into many different models:
   - Integrated (I)
   - Moving Average (MA)
 
+Box-Jenkins Methodolgy
+
 Split into training and test sets
 
 Logistic Regression -- binary classification problems (the output is either 0 or 1)
