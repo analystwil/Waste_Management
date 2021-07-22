@@ -1,4 +1,3 @@
-![NE PHL Map](https://user-images.githubusercontent.com/79024998/126721694-9d18373c-f25e-4c26-b88b-7f940f45ef93.PNG)
 ## Waste_Management - Philadelphia Streets Department
 
 ![image](https://user-images.githubusercontent.com/77358388/125873223-43eda908-6a28-4be1-bafd-4490116a61cf.png)
