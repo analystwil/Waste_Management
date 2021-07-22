@@ -1,3 +1,4 @@
+![NE PHL Map](https://user-images.githubusercontent.com/79024998/126721694-9d18373c-f25e-4c26-b88b-7f940f45ef93.PNG)
 ## Waste_Management - Philadelphia Streets Department
 
 ![image](https://user-images.githubusercontent.com/77358388/125873223-43eda908-6a28-4be1-bafd-4490116a61cf.png)
@@ -116,7 +117,13 @@ Shows all of the Jan Waste data. The darker squares indicate more waste in the p
 
 The number 9 displayed in the screenshot shows the container reached the limit of GREEN/YELLOW/RED. 
 
-![image](https://user-images.githubusercontent.com/79024998/126253347-aaf12470-26bf-4c46-9988-44c0210b5a5d.PNG)
+![NE PHL Map](https://user-images.githubusercontent.com/79024998/126721767-d4495da7-9c2b-415f-8154-8175656643a1.PNG)
+
+![NW PHL Map](https://user-images.githubusercontent.com/79024998/126721774-4795fb5f-2163-4c19-b057-06ec2b567290.PNG)
+
+![SE PHL Map](https://user-images.githubusercontent.com/79024998/126721783-d36a14a4-08f8-434b-8498-562486a17e43.PNG)
+
+![SW PHL Map](https://user-images.githubusercontent.com/79024998/126721791-2d7cea89-ce24-41b6-8cef-f2732218b13a.PNG)
 
 Map of Big Belly trash bins through out Philadelphia
 
