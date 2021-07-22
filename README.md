@@ -110,7 +110,7 @@ Classification
 
 ![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
 
-Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
+#Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
 ![image](https://user-images.githubusercontent.com/77358388/126094585-576ac0bf-de1a-4d54-8a20-ef691e327d12.png)
 
@@ -124,11 +124,11 @@ The number 9 displayed in the screenshot shows the container reached the limit o
 
 ![SW PHL Map](https://user-images.githubusercontent.com/79024998/126721791-2d7cea89-ce24-41b6-8cef-f2732218b13a.PNG)
 
-Map of Big Belly trash bins through out Philadelphia
+#Map of Big Belly trash bins through out Philadelphia
 
-![image](https://user-images.githubusercontent.com/79024998/126253415-e3860cf7-185d-447e-8dec-3539dc9e68ba.PNG)
+![image](https://user-images.githubusercontent.com/79024998/126722572-d4fd1230-740e-4f1f-b20b-4c9301d70c3f.PNG)
 
-Bar Graph showing January trash levels
+#Bar Graph showing January trash levels
 
 
 
