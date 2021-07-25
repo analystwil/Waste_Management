@@ -97,12 +97,39 @@ Below is the waste_data_df created containing the Jan data.
 We will create heatmaps or a line graph to analyze the data further.
 
 ## Model
-We are still narrowing down the Machine Learning model that will be used for this analysis, below are some models that we are deciding from.
 
-Classification
-- Monitor population to gauge frequency of trash pickup Arima – time series model, categorizes moving averages and auto-regression
-- Predict how much garbage is going to be generated, could be accurate for the next 4-5 years
-- Moving average – if it hits a certain point, this would be the impact of trash Linear Regression
+One of the ways we can think about our data is as a time series dataset (stationary data set).
+
+ARIMA (AutoRegressive Integrated Moving Average) -- a linear function of the differenced observations and residual errors at prior time steps
+  - predicts future values based on past values
+  - accounts for (and adjusts for) seasonality. The goal is to achieve stationary data. Check for seasonality using ACF or PACF methods.
+  - dependency between an observed value and a residual error from a moving average model applied to previous observations
+
+Parameters:
+  - p: number of autoregressive terms
+  - d: number of nonseasonal differences
+  - q: number of moving average terms
+
+ARIMA is nice to use because it breaks down into many different models:
+  - AutoRegression (AR)
+  - Integrated (I)
+  - Moving Average (MA)
+
+Box-Jenkins Methodolgy
+
+Split into training and test sets
+
+Logistic Regression -- binary classification problems (the output is either 0 or 1)
+
+Description of data preprocessing
+Description of feature engineering and the feature selection, including their decisionmaking process
+Description of how data was split into training and testing sets 
+Explanation of model choice, including limitations and benefits
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+Description of how they have trained the model thus far, and any additional training that will take place
+Description of current accuracy score
+Additionally, the model obviously addresses the question or problem the team is solving.
+
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
