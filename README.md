@@ -24,3 +24,12 @@ Box-Jenkins Methodolgy
 Split into training and test sets
 
 Logistic Regression -- binary classification problems (the output is either 0 or 1)
+
+Description of data preprocessing
+Description of feature engineering and the feature selection, including their decisionmaking process
+Description of how data was split into training and testing sets 
+Explanation of model choice, including limitations and benefits
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+Description of how they have trained the model thus far, and any additional training that will take place
+Description of current accuracy score
+Additionally, the model obviously addresses the question or problem the team is solving.
