@@ -178,6 +178,6 @@ RED is the highest (about 150 gallons)
 
 ## Next Steps 
 
-Create a heatmap in Tableau showing the locations of the trash pickup based on weight
-Finalize the Machine Learning Model
+- Create a heatmap in Tableau showing the locations of the trash pickup based on weight
+- Finalize the Machine Learning Model
 
