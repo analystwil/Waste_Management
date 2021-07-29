@@ -94,41 +94,16 @@ Below is the waste_data_df created containing the Jan data.
 
 ![image](https://user-images.githubusercontent.com/77358388/126092455-502a1314-2e11-47c8-9c65-ada50a9187a5.png)
 
-We will create heatmaps or a line graph to analyze the data further.
 
 ## Model
 
-One of the ways we can think about our data is as a time series dataset (stationary data set).
-
-ARIMA (AutoRegressive Integrated Moving Average) -- a linear function of the differenced observations and residual errors at prior time steps
-  - predicts future values based on past values
-  - accounts for (and adjusts for) seasonality. The goal is to achieve stationary data. Check for seasonality using ACF or PACF methods.
-  - dependency between an observed value and a residual error from a moving average model applied to previous observations
-
-Parameters:
-  - p: number of autoregressive terms
-  - d: number of nonseasonal differences
-  - q: number of moving average terms
-
-ARIMA is nice to use because it breaks down into many different models:
-  - AutoRegression (AR)
-  - Integrated (I)
-  - Moving Average (MA)
-
-Box-Jenkins Methodolgy
+Logistic Regression Model
 
 Split into training and test sets
 
-Logistic Regression -- binary classification problems (the output is either 0 or 1)
+The model is predicting the pickups for the last 11 days of the month of January based off of the groups we created in our analysis. Big Belly is transferring the contract over to the City of Philadelphia and to save time and resources we have gathered the containers should be only picked up when they are overflowing or near full. Model results below:
 
-Description of data preprocessing
-Description of feature engineering and the feature selection, including their decisionmaking process
-Description of how data was split into training and testing sets 
-Explanation of model choice, including limitations and benefits
-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
-Description of how they have trained the model thus far, and any additional training that will take place
-Description of current accuracy score
-Additionally, the model obviously addresses the question or problem the team is solving.
+![image](https://user-images.githubusercontent.com/77358388/127417366-bde0af5e-101e-4143-8ec2-2df3250796ba.png)
 
 
 ## Dashboard
@@ -176,8 +151,5 @@ RED is the highest (about 150 gallons)
 ## The WHY
 - Enviromental impact
 
-## Next Steps 
 
-- Create a heatmap in Tableau showing the locations of the trash pickup based on weight
-- Finalize the Machine Learning Model
 
