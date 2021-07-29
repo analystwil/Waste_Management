@@ -108,9 +108,7 @@ The model is predicting the pickups for the last 11 days of the month of January
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
-- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/PhiladelphiaTrash/JanuaryLevels?publish=yes)
-
-![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
+- [Waster Management Dashboard 2] (https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
 
 #Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
@@ -118,20 +116,21 @@ The model is predicting the pickups for the last 11 days of the month of January
 
 The number 9 displayed in the screenshot shows the container reached the limit of GREEN/YELLOW/RED. 
 
-![NE PHL Map](https://user-images.githubusercontent.com/79024998/126721767-d4495da7-9c2b-415f-8154-8175656643a1.PNG)
+![Jan_Trash Map](https://user-images.githubusercontent.com/79024998/127567770-87c2e9d2-42dd-4f31-aefa-d64bcfdc7909.PNG)
 
-![NW PHL Map](https://user-images.githubusercontent.com/79024998/126721774-4795fb5f-2163-4c19-b057-06ec2b567290.PNG)
+Map of Big Belly trash bins through out Philadelphia
 
-![SE PHL Map](https://user-images.githubusercontent.com/79024998/126721783-d36a14a4-08f8-434b-8498-562486a17e43.PNG)
+![Jan_Recycle Map](https://user-images.githubusercontent.com/79024998/127567970-83064ec4-65d3-4ba9-9975-3426d1610a9b.PNG)
 
-![SW PHL Map](https://user-images.githubusercontent.com/79024998/126721791-2d7cea89-ce24-41b6-8cef-f2732218b13a.PNG)
+#Map of Big Belly recycle bins through out Philadelphia.
 
-#Map of Big Belly trash bins through out Philadelphia
-
-![image](https://user-images.githubusercontent.com/79024998/126722572-d4fd1230-740e-4f1f-b20b-4c9301d70c3f.PNG)
+![Jan_Trash lvls](https://user-images.githubusercontent.com/79024998/127568377-2bd0abd4-1033-439c-b7d8-d8a919eff327.PNG)
 
 #Bar Graph showing January trash levels
 
+![Jan_Trash Level by Time](https://user-images.githubusercontent.com/79024998/127568252-ef4fd7cc-dcdf-4f61-886a-eaaa2601c1ba.PNG)
+
+#Chart illustrates trash levels by time of day
 
 
 ## Legend
