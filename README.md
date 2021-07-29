@@ -110,7 +110,7 @@ The model is predicting the pickups for the last 11 days of the month of January
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
 - [Waster Management Dashboard 2] (https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
 
-#Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
+Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
 ![image](https://user-images.githubusercontent.com/77358388/126094585-576ac0bf-de1a-4d54-8a20-ef691e327d12.png)
 
@@ -122,15 +122,15 @@ Map of Big Belly trash bins through out Philadelphia
 
 ![Jan_Recycle Map](https://user-images.githubusercontent.com/79024998/127567970-83064ec4-65d3-4ba9-9975-3426d1610a9b.PNG)
 
-#Map of Big Belly recycle bins through out Philadelphia.
+Map of Big Belly recycle bins through out Philadelphia.
 
 ![Jan_Trash lvls](https://user-images.githubusercontent.com/79024998/127568377-2bd0abd4-1033-439c-b7d8-d8a919eff327.PNG)
 
-#Bar Graph showing January trash levels
+Bar Graph showing January trash levels
 
 ![Jan_Trash Level by Time](https://user-images.githubusercontent.com/79024998/127568252-ef4fd7cc-dcdf-4f61-886a-eaaa2601c1ba.PNG)
 
-#Chart illustrates trash levels by time of day
+Chart illustrates trash levels by time of day
 
 
 ## Legend
