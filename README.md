@@ -96,7 +96,7 @@ Below is the waste_data_df created containing the Jan data.
 
 ## Model
 
-Logistic Regression Model
+Classification Model
 
 Split into training and test sets
 
