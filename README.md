@@ -133,7 +133,7 @@ Bar Graph showing January trash levels
 
 Chart illustrates trash levels by time of day
 
-Next steps would be to deploy Random Forest - Classification Problem model in Python directly into tableau using the TabPy library.
+*Next steps would be to deploy Random Forest - Classification Problem model in Python directly into tableau using the TabPy library.*
 
 ## Legend
 
