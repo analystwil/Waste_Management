@@ -96,7 +96,9 @@ Below is the waste_data_df created containing the Jan data.
 
 ## Model
 
-Classification Model
+Random Forest - Classification Problem
+
+Supervised learning algorithm 
 
 Split into training and test sets
 
