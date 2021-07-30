@@ -147,7 +147,7 @@ RED is the highest (about 150 gallons)
 - Zoom
 
 ## The WHY
-- To reduce waste pileup and save resources for the City of Philadelphia
+To reduce waste pileup and save resources for the City of Philadelphia.
 
 ## Next Steps
 
