@@ -149,5 +149,9 @@ RED is the highest (about 150 gallons)
 ## The WHY
 - To reduce waste pileup and save resources for the City of Philadelphia
 
+## Next Steps
+
+For the ML model we would create fictional data set to predict the trash levels for every hour. We can also create a graph and see the predictions based off date and time. We would present this data to the City of Philadelphia and allow them to come up with an action plan for the waste pickup. 
+
 
 
