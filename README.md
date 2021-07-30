@@ -101,6 +101,15 @@ The model is predicting the pickups for the last 11 days of the month of January
 
 ![image](https://user-images.githubusercontent.com/77358388/127417366-bde0af5e-101e-4143-8ec2-2df3250796ba.png)
 
+Legend
+- No Go (Fairly Empty) = 0
+- Go (Full - Overflowing Waste) = 1
+
+- No Go total 1,143 Containers
+- Go total 1,357 Containers
+
+The City of Philadelphia will now only pickup the containers indicated as Go. Picking up the bins that are full and overflowing will save the City time and resources along with decreasing waste in the city.
+
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
