@@ -112,8 +112,7 @@ The City of Philadelphia will now only pickup the containers indicated as Go. Pi
 
 
 ## Dashboard
-- [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
-- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
+- [Waste Management Dashboard](https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrashAnalysis)
 
 Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
