@@ -109,7 +109,7 @@ The model is predicting the pickups for the last 11 days of the month of January
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
-- [Waster Management Dashboard 2] (https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
+- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
 
 Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
