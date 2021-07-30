@@ -5,10 +5,8 @@
 
 Team Members:
 - Mangala, Francis
-- Weber, Yuval
 - Morakis, Chloe
 - Wilson, Ashley
-- Roberts, Truman
 - Bradshaw, Ryan
 
 ## Outline:
