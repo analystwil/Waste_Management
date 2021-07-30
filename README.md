@@ -39,6 +39,13 @@ Big Belly is transferring the current contract to the City of Philadelphia and w
 - [Big Belly Trash Bin Usage](https://metadata.phila.gov/#home/datasetdetails/5543866e20583086178c4f1e/representationdetails/55438ab49b989a05172d0d55/)
 - [Big Belly Waste Baskets (Trash Bins)](https://metadata.phila.gov/#home/datasetdetails/555f8139f15fcb6c6ed4414f/representationdetails/556de53bcf0e0dca19464e91/ )
 
+## Legend
+
+GREEN/YELLOW/RED System
+
+- GREEN is fairly empty (about 30 gallons of trash)
+- YELLOW is full (about 90 Gallons)  
+- RED is the highest (about 150 gallons)
 
 ## Database and Processing
 
@@ -51,45 +58,31 @@ We have 99,632 observations
 
 We have 9 features: 
 
-1. Objectid
-- 
-2. serialnum	
-- The serial number of the BigBelly on the street. Each BigBelly has a unique SN	
-3. description 
-- Intersection where the BigBelly is located	
-4. Recycler
-- When yes the bigbelly has an attached recycler. When No, it is trash only.	
-5. lat	
-- Latitude of BigBelly location	
-6. lng	
-- Longitude of BigBelly location	
-7. streamtype	
-- The type of material the BigBelly holds. Typically in Philly, they are all Trash, but other customers have Single Stream, Bottles/Cans, Paper, etc.	
-8. timestamp_ 
-- The Date/Time of the collection	
-9. level_
-- The fullness of the bin when it was collected at the timestamp. We use a GREEN/YELLOW/RED system. GREEN is fairly empty (about 30 gallons of trash), YELLOW is full (about 90 Gallons) and RED is the highest (about 150 gallons).	
+![image](https://user-images.githubusercontent.com/77358388/125873713-5b06ce58-2ef0-4793-8106-ccfce66f8fcd.png)
+
+ERD Chart
+
+![image](https://user-images.githubusercontent.com/77358388/125873739-3a1a80f3-d288-4677-a87b-2a59d198ff5a.png)
+
+
+SQL pgAdmin
 
 ![image](https://user-images.githubusercontent.com/77358388/125873545-a981687c-7532-4e25-93ba-bd9a60f1956c.png)
 
 ![image](https://user-images.githubusercontent.com/77358388/125873842-98e598fc-e5ed-47a6-94a3-26eaedc73691.png)
-
-![image](https://user-images.githubusercontent.com/77358388/125873713-5b06ce58-2ef0-4793-8106-ccfce66f8fcd.png)
-
-![image](https://user-images.githubusercontent.com/77358388/125873739-3a1a80f3-d288-4677-a87b-2a59d198ff5a.png)
 
 
 Database below is the final database after we merged both CSV files (Waste and Waste Bins)
 
 ![image](https://user-images.githubusercontent.com/77358388/125873810-79f12133-d5c2-4e47-8de4-eb966f17d1f4.png)
 
-We only be worked with data from the month of January. We filtered the table in Postgres to retrieve this data.
+We worked with data from the month of January. We filtered the table in Postgres to retrieve this data.
 
 ![image](https://user-images.githubusercontent.com/77358388/126092420-92c19bc4-33aa-45e8-8bf4-99b1aba44554.png)
 
 
 
-## PYTHON - MATPLOTLIB 
+## Analyis - PYTHON - MATPLOTLIB 
 
 Below is the waste_data_df created containing the Jan data.
 
@@ -111,7 +104,7 @@ The model is predicting the pickups for the last 11 days of the month of January
 
 ## Dashboard
 - [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
-- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrashAnalysis?publish=yes)
+- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/GroupProject_PhillyWaste/PhiladelphiaTrash?publish=yes)
 
 Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
 
@@ -135,16 +128,6 @@ Bar Graph showing January trash levels
 
 Chart illustrates trash levels by time of day
 
-*Next steps would be to deploy Random Forest - Classification Problem model in Python directly into tableau using the TabPy library.*
-
-## Legend
-
-GREEN/YELLOW/RED system
-
-GREEN is fairly empty (about 30 gallons of trash)
-YELLOW is full (about 90 Gallons)  
-RED is the highest (about 150 gallons)
-
 ## Communication Protocols
 - Weekly meeting – Wednesday’s 8:30-9:30p
 - Agenda for weekly meeting
@@ -158,5 +141,5 @@ To reduce waste pileup and save resources for the City of Philadelphia.
 
 For the ML model we would create fictional data set to predict the trash levels for every hour. We can also create a graph and see the predictions based off date and time. We would present this data to the City of Philadelphia and allow them to come up with an action plan for the waste pickup. 
 
-
+In Tableau we would want to deploy Random Forest - Classification Problem model in Python directly into tableau using the TabPy library.
 
