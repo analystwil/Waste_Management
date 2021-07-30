@@ -40,9 +40,9 @@ Team Members:
 
 ## Database and Processing
 
-SQL pgAdmin
+SQL pgAdmin was used to clean up the data. 
 
-We will access the data by using two CSV and creating tables for each file in pgAdmin. We then merged the files by creating a new table.
+We accessed the data by using two CSV and creating tables for each file in pgAdmin. We then merged the files by creating a new table.
 
 We have 99,632 observations
 -	The only change we had to make in the CSV was to rename one of the columns
@@ -81,7 +81,7 @@ Database below is the final database after we merged both CSV files (Waste and W
 
 ![image](https://user-images.githubusercontent.com/77358388/125873810-79f12133-d5c2-4e47-8de4-eb966f17d1f4.png)
 
-We will only be working with data from the month of January. I filtered the table in Postgres to retrieve this data.
+We only be worked with data from the month of January. We filtered the table in Postgres to retrieve this data.
 
 ![image](https://user-images.githubusercontent.com/77358388/126092420-92c19bc4-33aa-45e8-8bf4-99b1aba44554.png)
 
