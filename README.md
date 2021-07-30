@@ -20,10 +20,12 @@ Team Members:
 - Validate the problem
 
 ## Business Problem and Questions
--- Big Belly is transferring the contract to the City of Philadelphia and we want to provide data to the city on how they could possibly be more efficent with trash pickups in the city
+Big Belly is transferring the current contract to the City of Philadelphia and we want to provide data to the city on how they could possibly be more efficent with trash pickups in the city.
+
 - Does Big Belly currently have a schedule for container pickup?
-- What factors contribute to where the containers are placed?
-- Business Problem - Containers are overflowing in which will cause an uptake in rodents and an eye soar in the community.
+- How many containers are in the city?
+- What time of day are the containers full?
+- How can we reduce overflowing containers in which cause an uptake in rodents and an eye soar in the community?
 
 
 ## Validate the problem
