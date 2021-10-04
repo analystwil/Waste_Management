@@ -1,4 +1,7 @@
-## Waste_Management
+## Waste_Management - Philadelphia Streets Department
+
+![image](https://user-images.githubusercontent.com/77358388/125873223-43eda908-6a28-4be1-bafd-4490116a61cf.png)
+
 
 Team Members:
 - Mangala, Francis
@@ -8,49 +11,138 @@ Team Members:
 - Roberts, Truman
 - Bradshaw, Ryan
 
-# Selected topic
-- Waste Management (as it relates to population and budgeting)
+## Outline:
 
-# Reason they selected the topic
-- We decided to go with Waste Management because we were curious as to why certain areas have a different number of days for trash/recycling pickup. Is this due to population? Budget? 
+- Business Problem and Questions
+- Data Sources 
+- Model
+- Database & Dashboard we selected 
+- Validate the problem
 
-# Description of the source of data
-- [Fairfax County Data](https://www.fairfaxcounty.gov/budget/sites/budget/files/assets/documents/fy2021/adopted/volume2/solid-waste-overview.pdf)
-- [Arlington County Budget (2016- 2018)](https://budget.arlingtonva.us/wp-content/uploads/sites/18/2017/06/21.-FY18A-Environmental-Services.pdf)
-- [Arlington County Budget (2016- 2018)](https://arlingtonva.s3.amazonaws.com/wp-content/uploads/sites/18/2020/02/FY-21-Proposed-All-in-one-02242020.pdf)
+## Business Problem and Questions
 
-Population Data
-https://www.census.gov/data/developers/data-sets/popest-popproj/popest.html (this has an API key)
+- Making a case to the City of Philadelphia to keep trying the Big Belly trash cans and leveraging the data the waste baskets are collecting
+- Does Big Belly currently have a schedule for container pickup?
+- Once the container is full how long does it take Big Belly to empty container?
+- What factors contribute to where the containers are placed?
+- Business Problem - Containers are overflowing in which will cause an uptake in rodents and an eye soar in the community.
 
-Environmental and natural resources department spending by state
+## Validate the problem
 
-# Questions they hope to answer with the data
-As population increases, what’s the determining factor to increase/decrease/re-evaluate trash is picked up?
-- Number of trash pick ups
+- A lot of Philadelphians hope to see improvements within the Streets Department. About 80 percent of people said the streets need to be cleaner.
 
-Impact of population growth to trash (in pounds) 
-- If it gets to a certain point, there are environmental concerns
+![image](https://user-images.githubusercontent.com/77358388/125873505-5007604a-a5de-4a3e-b15f-2bd15b3e9f64.png)
 
-Is this due to population in the specific areas? 
-Budget in the state/county? 
-Staff availability?
-Space at the dump to breakdown trash?
 
-## Models that can be used
-RBM – unsupervised learning, monitor a system, building a binary recommendation system, or working with a specific set of data
-- Monitor population to gauge frequency of trash pickup
-- Will help predict trash by population
+## Data Sources
+- [Big Belly Trash Bin Usage](https://metadata.phila.gov/#home/datasetdetails/5543866e20583086178c4f1e/representationdetails/55438ab49b989a05172d0d55/)
+- [Big Belly Waste Baskets (Trash Bins)](https://metadata.phila.gov/#home/datasetdetails/555f8139f15fcb6c6ed4414f/representationdetails/556de53bcf0e0dca19464e91/ )
 
-Arima – time series model, categorizes moving averages and auto-regression
-- Predict how much garbage is going to be generated, could be accurate for the next 4-5 years
-- Moving average – if it hits a certain point, this would be the impact of trash 
 
-Linear Regression
+## Database and Processing
 
-Classification model 
-- Will assist in making a recommendation.
+SQL pgAdmin
 
-# Communication Protocols
+We will access the data by using two CSV and creating tables for each file in pgAdmin. We then merged the files by creating a new table.
+
+We have 99,632 observations
+-	The only change we had to make in the CSV was to rename one of the columns
+
+We have 9 features: 
+
+1. Objectid
+- 
+2. serialnum	
+- The serial number of the BigBelly on the street. Each BigBelly has a unique SN	
+3. description 
+- Intersection where the BigBelly is located	
+4. Recycler
+- When yes the bigbelly has an attached recycler. When No, it is trash only.	
+5. lat	
+- Latitude of BigBelly location	
+6. lng	
+- Longitude of BigBelly location	
+7. streamtype	
+- The type of material the BigBelly holds. Typically in Philly, they are all Trash, but other customers have Single Stream, Bottles/Cans, Paper, etc.	
+8. timestamp_ 
+- The Date/Time of the collection	
+9. level_
+- The fullness of the bin when it was collected at the timestamp. We use a GREEN/YELLOW/RED system. GREEN is fairly empty (about 30 gallons of trash), YELLOW is full (about 90 Gallons) and RED is the highest (about 150 gallons).	
+
+![image](https://user-images.githubusercontent.com/77358388/125873545-a981687c-7532-4e25-93ba-bd9a60f1956c.png)
+
+![image](https://user-images.githubusercontent.com/77358388/125873842-98e598fc-e5ed-47a6-94a3-26eaedc73691.png)
+
+![image](https://user-images.githubusercontent.com/77358388/125873713-5b06ce58-2ef0-4793-8106-ccfce66f8fcd.png)
+
+![image](https://user-images.githubusercontent.com/77358388/125873739-3a1a80f3-d288-4677-a87b-2a59d198ff5a.png)
+
+
+Database below is the final database after we merged both CSV files (Waste and Waste Bins)
+
+![image](https://user-images.githubusercontent.com/77358388/125873810-79f12133-d5c2-4e47-8de4-eb966f17d1f4.png)
+
+We will only be working with data from the month of January. I filtered the table in Postgres to retrieve this data.
+
+![image](https://user-images.githubusercontent.com/77358388/126092420-92c19bc4-33aa-45e8-8bf4-99b1aba44554.png)
+
+
+
+## PYTHON - MATPLOTLIB 
+
+Below is the waste_data_df created containing the Jan data.
+
+![image](https://user-images.githubusercontent.com/77358388/126092455-502a1314-2e11-47c8-9c65-ada50a9187a5.png)
+
+
+## Model
+
+Logistic Regression Model
+
+Split into training and test sets
+
+The model is predicting the pickups for the last 11 days of the month of January based off of the groups we created in our analysis. Big Belly is transferring the contract over to the City of Philadelphia and to save time and resources we have gathered the containers should be only picked up when they are overflowing or near full. Model results below:
+
+![image](https://user-images.githubusercontent.com/77358388/127417366-bde0af5e-101e-4143-8ec2-2df3250796ba.png)
+
+
+## Dashboard
+- [Waste Management Dashboard](https://public.tableau.com/app/profile/analystwil/viz/WasteManagementProject_16266622989210/AllJanWaste?publish=yes)
+- [Waste Management Dashboard 2](https://public.tableau.com/app/profile/ryan.bradshaw/viz/PhiladelphiaTrash/JanuaryLevels?publish=yes)
+
+![image](https://user-images.githubusercontent.com/77358388/126094365-27ea0731-9aff-4f7d-a561-02b8108df582.png)
+
+#Shows all of the Jan Waste data. The darker squares indicate more waste in the particular location. 
+
+![image](https://user-images.githubusercontent.com/77358388/126094585-576ac0bf-de1a-4d54-8a20-ef691e327d12.png)
+
+The number 9 displayed in the screenshot shows the container reached the limit of GREEN/YELLOW/RED. 
+
+![NE PHL Map](https://user-images.githubusercontent.com/79024998/126721767-d4495da7-9c2b-415f-8154-8175656643a1.PNG)
+
+![NW PHL Map](https://user-images.githubusercontent.com/79024998/126721774-4795fb5f-2163-4c19-b057-06ec2b567290.PNG)
+
+![SE PHL Map](https://user-images.githubusercontent.com/79024998/126721783-d36a14a4-08f8-434b-8498-562486a17e43.PNG)
+
+![SW PHL Map](https://user-images.githubusercontent.com/79024998/126721791-2d7cea89-ce24-41b6-8cef-f2732218b13a.PNG)
+
+#Map of Big Belly trash bins through out Philadelphia
+
+![image](https://user-images.githubusercontent.com/79024998/126722572-d4fd1230-740e-4f1f-b20b-4c9301d70c3f.PNG)
+
+#Bar Graph showing January trash levels
+
+
+
+## Legend
+
+GREEN/YELLOW/RED system
+
+GREEN is fairly empty (about 30 gallons of trash)
+YELLOW is full (about 90 Gallons)  
+RED is the highest (about 150 gallons)
+
+## Communication Protocols
 - Weekly meeting – Wednesday’s 8:30-9:30p
 - Agenda for weekly meeting
 - Slack
@@ -58,5 +150,6 @@ Classification model
 
 ## The WHY
 - Enviromental impact
-- Budgeting impact
+
+
 
